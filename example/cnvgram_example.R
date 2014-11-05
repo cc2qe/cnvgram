@@ -1,6 +1,6 @@
 # THE SOURCE NEEDS TO POINT TO THE GENOME DRAW SOURCE FILE (genomeDrawSrc.R)
-source("/Users/colby/Documents/chgr/code/cnv_draw/src/genomeDrawSrc.R")
-setwd("/Users/colby/Documents/chgr/code/cnv_draw/example")
+source("/Users/cc2qe/code/cnvgram/src/cnvgram.R")
+setwd("/Users/cc2qe/code/cnvgram/example")
 
 ######################################
 
