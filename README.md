@@ -15,7 +15,7 @@ Description: cnvgram is a script written in R to conveniently draw chromosomal i
 
 ### EXAMPLE ###
 
-To see an example, navigate to the directory ./example and open cnvgram_example.R (the driver script). You must point the source (first line of the cnvgram_example.R file) to the correct path of cnvgram.R (the source file), otherwise it won't run.
+To see an example, navigate to the directory [example](example) and open [cnvgram_example.R](example/cnvgram_example.R) (the driver script). You must point the source (first line of the [cnvgram_example.R](example/cnvgram_example.R) file) to the correct path of [cnvgram.R](src/cnvgram.R) (the source file), otherwise it won't run.
 
 ### CNVS ###
 
