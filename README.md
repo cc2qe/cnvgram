@@ -4,12 +4,14 @@ cnvgram
 Draw CNV diagrams
 
 ### INFO ###
+```
 Program: cnvgram
 Version: 0.1
-Author: Colby Chiang (chiang@chgr.mgh.harvard.edu)
+Author: Colby Chiang (cc2qe@virginia.edu)
 Date: 11/29/2011
 Affiliation: CHGR, MGH
 Description: cnvgram is a script written in R to conveniently draw chromosomal ideograms with copy number variants and genes.
+```
 
 ### EXAMPLE ###
 
