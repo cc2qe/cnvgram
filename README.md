@@ -50,7 +50,7 @@ Col	Description
 18	position of label: "left", "right", "center", or "none"
 ```
 
-To get the first 16 columns, you can download the refGene data from UCSC at the following location: http://hgdownload.cse.ucsc.edu/goldenPath/hg18/database/refGene.txt.gz
+To get the first 16 columns, you can download the refGene data from UCSC at the following location: http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz
 
 It's often useful to filter this down to just get genes in your region. I use this quick awk script
 ```
