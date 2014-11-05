@@ -33,7 +33,7 @@ drawIdeogram <- function(myIdeo, tickStart, tickEnd, tickSep) {
 	}
 }
 
-importCnvs <- function(cnvFile, autoCollapse=FALSE, height=3, sep=4, fontsize=0.8, dupCol='mediumaquamarine', delCol='indianred1') {
+importCnvs <- function(cnvFile, autoCollapse=FALSE, height=3, sep=4, fontsize=0.8, dupCol='lightskyblue', delCol='indianred1') {
 	textTable <- matrix(scan(cnvFile, what="raw", sep="\t", skip=1), ncol=16, byrow=T)
 	
 	CnvArray <- vector(mode='list')
