@@ -63,7 +63,7 @@ Don't forget to add columns 17 and 18 before trying to load it into importGenes 
 
 ### POST-PROCESSING ###
 
-If you want to get the 3D effect, you need to modify the PDF file that R generates in Photoshop. To do this, import the PDF into Photoshop (I usually import at 600 dpi). Then right-click on the layer and select "Blending options...". In the dialog box, turn on "Bevel and emboss" with a depth of ~25% and size of ~24 px. Adjust so it looks good.
+To get the 3D effect, modify the PDF file that R generates in Photoshop. Import the PDF into Photoshop, then right-click on the layer and select "Blending options...". In the dialog box, turn on "Bevel and emboss" with a depth of ~25% and size of ~24 px. Adjust to preference.
 
 
 
