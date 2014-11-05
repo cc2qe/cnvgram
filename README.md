@@ -6,7 +6,7 @@ Draw CNV diagrams
 ### INFO ###
 ```
 Program: cnvgram
-Version: 0.1
+Version: 0.0.1
 Author: Colby Chiang (cc2qe@virginia.edu)
 Date: 11/29/2011
 Affiliation: UVA, CHGR, MGH
