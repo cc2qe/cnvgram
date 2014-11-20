@@ -3,7 +3,7 @@ cnvgram
 
 Draw CNV diagrams
 
-### INFO ###
+### Info ###
 ```
 Program: cnvgram
 Version: 0.0.1
@@ -13,13 +13,13 @@ Affiliation: UVA, CHGR, MGH
 Description: cnvgram is a script written in R to conveniently draw chromosomal ideograms with copy number variants and genes.
 ```
 
-### EXAMPLE ###
+### Example ###
 
 To see an example, navigate to the directory [example](example) and open [cnvgram_example.R](example/cnvgram_example.R) (the driver script). You must point the source (first line of the [cnvgram_example.R](example/cnvgram_example.R) file) to the correct path of [cnvgram.R](src/cnvgram.R) (the source file), otherwise it won't run.
 
 ![Example cnvgram image](example/example.png?raw=true "Example cnvgram image")
 
-### CNVS ###
+### CNVs ###
 
 The function "importCnvs" in the driver file references a 16 column text file with data for all the CNVs you want to draw.
 
@@ -43,7 +43,7 @@ Col	Description
 16	1 or 0. CNV Draw will draw diagonal shading for gene specific events.
 ```
 
-### GENES ###
+### Genes ###
 
 The function "importGenes" in the driver file references an 18 column text file with data for the genes in the region and their metadata.
 
@@ -62,10 +62,6 @@ curl -s http://hgdownload.cse.ucsc.edu/goldenpath/hg19/database/refGene.txt.gz |
 ```
 
 Don't forget to add columns 17 and 18 before trying to load it into importGenes though.
-
-### POST-PROCESSING ###
-
-To get the 3D effect, modify the PDF file that R generates in Photoshop. Import the PDF into Photoshop, then right-click on the layer and select "Blending options...". In the dialog box, turn on "Bevel and emboss" with a depth of ~25% and size of ~24 px. Adjust to preference.
 
 
 
